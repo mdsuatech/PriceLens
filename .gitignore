@@ -51,3 +51,6 @@ app.*.map.json
 /webapp/playwright-report/
 /webapp/public/ocr/
 /.playwright-mcp/
+
+# Local requirements reference
+/ТЗ.txt
