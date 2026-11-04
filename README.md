@@ -41,7 +41,7 @@ npm run preview
 
 ## GitHub Pages
 
-Workflow `Check browser application` проверяет приложение при push и pull request, затем сохраняет сборку в артефактах Actions. Для публикации подготовлен отдельный ручной workflow `Publish PWA to GitHub Pages`. Перед запуском требуется включить Pages с источником GitHub Actions. Pages для приватного репозитория зависит от тарифа GitHub. Публичность сайта проверяется отдельно от приватности репозитория.
+Workflow `Check browser application` проверяет приложение при push и pull request, затем сохраняет сборку в артефактах Actions. Workflow `Publish PWA to GitHub Pages` выполняет проверки и публикует сайт при изменениях `webapp/` в ветке `main`. Он также запускается вручную. Pages настроен на GitHub Actions. Публичность сайта и репозитория проверяется отдельно.
 
 ## Документы
 
