@@ -54,3 +54,4 @@ app.*.map.json
 
 # Local requirements reference
 /ТЗ.txt
+/docs/source/original-chat.txt
