@@ -1,0 +1,27 @@
+name: pricelens
+description: "Local camera price scanner for RON, EUR and UAH."
+publish_to: 'none'
+version: 0.3.0+3
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: 0.11.0+2
+  camera_android: 0.10.9+12
+  google_mlkit_text_recognition: 0.15.0
+  app_settings: 5.1.1
+  sqflite: 2.4.1
+  url_launcher: 6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
